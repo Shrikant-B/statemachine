@@ -24,7 +24,6 @@ class MovieDetailsViewModel : ViewModel() {
     }
 
     override fun onCleared() {
-        viewModelScope.cancel()
         super.onCleared()
     }
 
